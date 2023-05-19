@@ -855,7 +855,7 @@ void MainWindow::animar(){
 
     // Si el movimiento es vertical u horizontal
     if(tipoMov == 'X'){
-        if(notInTrig && (dirPacMan == 'L' || dirPacMan == 'R') ) dirMov == dirPacMan;
+        if(notInTrig && (dirPacMan == 'L' || dirPacMan == 'R') ) dirMov = dirPacMan;
         else if(dirPacMan == 'L' && openLe) dirMov = dirPacMan;
         else if(dirPacMan == 'R' && openRi) dirMov = dirPacMan;
         else if(dirPacMan == 'U' && openUp){
@@ -868,7 +868,7 @@ void MainWindow::animar(){
             tipoMov = 'Y';
         }
     }else if(tipoMov == 'Y'){
-        if(notInTrig && (dirPacMan == 'U' || dirPacMan == 'D') ) dirMov == dirPacMan;
+        if(notInTrig && (dirPacMan == 'U' || dirPacMan == 'D') ) dirMov = dirPacMan;
         else if(dirPacMan == 'U' && openUp) dirMov = dirPacMan;
         else if(dirPacMan == 'D' && openDo) dirMov = dirPacMan;
         else if(dirPacMan == 'L' && openLe){
