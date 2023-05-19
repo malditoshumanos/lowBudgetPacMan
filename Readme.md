@@ -1,1 +1,1 @@
-##Proyecto de QT que contiene una implementación arcaica del juego pacaman usando c++ y el framework QT.
+Proyecto de QT que contiene una implementación arcaica del juego pacaman usando c++ y el framework QT.
